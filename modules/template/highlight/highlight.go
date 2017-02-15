@@ -14,6 +14,7 @@ import (
 var (
 	// File name should ignore highlight.
 	ignoreFileNames = map[string]bool{
+		"cmakelists.txt": true,
 		"license": true,
 		"copying": true,
 	}
